@@ -1,7 +1,139 @@
-h4{
-    background-color: rgb(238, 4, 4);
+body{
+    margin: 0;
+    background-color: black;
+   
+
+}
+.box{
+    position: flex;
+
+    width: 50%;
+    height: 50%;
+
+    position: absolute;
+}
+.box-top-left{
+    background-color: red;
+    top: 0;
+    left: 0;
+
+}
+.box-top-right{
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+.box-bottom-left{
+    background-color: #fed700;
+    bottom: 0;
+    left: 0;
+}
+.box-bottom-right{
+    background-color: #ff1494;
+    bottom: 0;
+    right: 0;
 }
 
-p{
-    background-color: yellow;
+/* 90 hlaf box -------------------------------------------------------------------------------------*/
+.box-half{
+    width: 12.5%;
+    height: 20%;
+    background-color: white;
+
+    position: absolute;
+}
+.top-left{
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+.top-right{
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+.bottom-left{
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+.bottom-right{
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+
+/* circle------------------------------------------------------------------------------ */
+.circle{
+    width:45%;
+    /* height: 55%; */
+    height: 350px;
+    background-color: white;
+    border-radius: 50%;
+
+    position: relative;
+}
+.c-top-left{
+    top: 22%;
+    left:27%;
+}
+.c-top-right{
+    top: 22%;
+    right:-27%;
+}
+.c-bottom-left{
+    bottom: -22%;
+    left:27%;
+}
+.c-bottom-right{
+    bottom: -22%;
+    right:-27%;
+}
+
+/* box in circle------------------------------------------------------------------------------ */
+.box-in-circle{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+.bc-top-left{
+    top: 25%;
+    left: 25%;
+}
+.bc-top-right{
+    top: 25%;
+    right: 25%;
+}
+.bc-bottom-left{
+    bottom: 25%;
+    left: 25%;
+}
+.bc-bottom-right{
+    bottom: 25%;
+    right: 25%;
+}
+
+/* middle box------------------------------------------------------------------------------ */
+.box-middle{
+
+    width: 25%;
+    height: 35%;
+
+    background-color: white;
+
+    position: absolute;
+
+    transform: translate(150%, 93%);
+}
+.c-middle{
+    position: relative;
+
+    background-color: red;
+
+    width:45%;
+    height: 55%;
+
+    transform: translate(61%,41%);
+
 }
