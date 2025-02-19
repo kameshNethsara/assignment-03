@@ -1,25 +1,11 @@
 body{
     margin: 0;
-    height: 100vh;
-}
-.section-body{
-    display: flex;
-}
-.box-left{
-    width: 20vw;
-    height: auto;
-    background-color: #4c0182;
-}
-.box-right{
-    width: 80vw;
-    height: auto;
-    background-color: white;
+  
 }
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .nav-container{
   margin: 12px;
@@ -28,6 +14,8 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
+   
+    
 }
 .nav-container nav ul li{  
     padding-right: 12px;
@@ -39,9 +27,7 @@ body{
 
 .side-nav{
     background-color:#4c0182;
-
-    position: absolute;
-
+    width: 35%;
 }
 .side-nav nav ul{  
     color: white;
@@ -56,31 +42,27 @@ hr{
     border: 1.5px solid black;
 }
 #home-section{
-    /* display: flex;
-    justify-content: space-between; */
-    position: absolute;
-    
+    display: flex;
+    justify-content: space-between;
 }
 #home-nav a{
     color: white;
     text-decoration: none;
 }
-.details{
-    position: relative;
-    /* right: -35%;
-    top: -915px; */
+/* .details{
+    position: absolute;
 
-}
-
+} */
 /* #home{
     position: relative;
     top: 0;
     right: 0;
 } */
 .details{
-    padding-left: 10px;
+    margin: 10px;
+    margin-top: 0;  
 }
-.video-container img{
+.video-container video{
     width: 250px;
     height: 250px;
     border: 1px solid black;
@@ -88,12 +70,7 @@ hr{
     margin-top: 1px;
     
 }
-
 footer{
-    position: relative;
-    bottom: 0;
-    width: 100vw;
-
     background-color: grey;
     color: white;
     text-align: center;
